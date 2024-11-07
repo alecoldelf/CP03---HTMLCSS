@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(252, 79, 107);
+    width: 980px;
+    height: 140px; 
+}
+
+main {
+    display: flex;
+    flex-direction: row; 
+}
+
+.sidebar {
+    width: 270px;
+    height: 450px;
+    background-color: goldenrod;
+}
+
+.content {
+    width: 690px;
+    height: 450px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: black;
+}
+
+footer {
+    width: 980px;
+    height: 70px;
+    background-color: blue;
+}
